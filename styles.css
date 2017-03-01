@@ -1,0 +1,49 @@
+header {
+  font-family: Myriad pro;
+font-size:28px;
+font-weight: bold;
+position: absolute; /* Абсолютное позиционирование */
+top: 20px; /* Положение от верхнего края */
+left: 300px; /* Положение от левого края */;
+
+}
+
+.text {
+  position: static;;
+  left: 1px;
+  top:55px;
+
+
+}
+body {
+
+background-image: url(fon.png);
+background-repeat: repeat;
+
+}
+
+div {
+  margin-left: 300px;
+}
+
+
+img {
+  position: static;;
+  left: 300px;
+  top:100px;
+}
+
+.foto {
+  position: relative;
+  left: 100px;
+  top:55px;
+
+}
+
+.n {
+   text-indent: 1.5em;
+}
+
+.link {
+   text-indent: 1.5em;
+}
