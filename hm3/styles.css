@@ -1,0 +1,94 @@
+.logo {
+    display: block;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.menu_line {
+    display: block;
+    margin-top: 40px;
+    margin-left: 50px;
+    background-color: #4f4f4f;
+    height: 54px;
+    weight: 964px;
+}
+
+.hm2 li {
+    display: inline-block;
+}
+
+.hm2 li a {
+    display: block;
+    float: left;
+    padding: 20px 66px;
+    text-decoration: none;
+    font-family: Maryad Pro;
+    font-size: 16px;
+    color: #ffffff;
+    text-shadow: #a8a7a7 1px 0px;
+}
+
+.hm2 li a:hover {
+    background-color: #3f3f3f;
+    border-bottom: 2px solid ##a8a7a7;
+}
+
+.menu_list {
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 240px;
+    height: 240px;
+}
+
+.menu_list li a {
+    display: block;
+    weight: 240px;
+    border: solid 1px #c8c8c8;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 13px;
+    color: #2c2c2c;
+}
+
+.menu_list li a:hover {
+    background-color: #f9f9f9;
+    border-bottom: 2px solid ##a8a7a7;
+}
+
+.image {
+    display: block;
+    margin-top: -240px;
+    margin-left: 332px;
+    border: solid 1px #c8c8c8;
+    width: 680px;
+    height: 400px;
+    padding: 40px;
+}
+
+.text {
+    margin-top: 40px;
+    margin-left: 357px;
+    width: 680px;
+}
+
+.menu_low {
+    margin-top: 80px;
+    margin-left: 50px;
+    height: 54px;
+    weight: 964px;
+    background-color: #e1e1e1;
+    min-width: 100%;
+}
+
+.menu_low li {
+    display: inline-block;
+}
+
+.menu_low li a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #2c2c2c;
+    text-align: justify;
+    padding: 25px 66px;
+    margin-top: 15px;
+}
