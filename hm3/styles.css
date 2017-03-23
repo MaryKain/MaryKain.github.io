@@ -1,16 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .logo {
     display: block;
-    margin-top: 50px;
+    float: left;
+    margin-top: 0px;
     margin-left: 50px;
 }
 
 .menu_line {
     display: block;
-    margin-top: 40px;
+    margin-top: 130px;
     margin-left: 50px;
-    background-color: #4f4f4f;
+    /*  background-color: #4f4f4f;*/
+    background: linear-gradient(to top, #b5bdc8 0%, #4f4f4f 0%, #494848 60%);
     height: 54px;
-    weight: 964px;
+    width: 964px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
 }
 
 .hm2 li {
@@ -22,7 +33,7 @@
     float: left;
     padding: 20px 66px;
     text-decoration: none;
-    font-family: Maryad Pro;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     color: #ffffff;
     text-shadow: #a8a7a7 1px 0px;
@@ -42,17 +53,19 @@
 
 .menu_list li a {
     display: block;
-    weight: 240px;
     border: solid 1px #c8c8c8;
+    border-collapse: collapse;
     padding: 20px;
     text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
     font-size: 13px;
-    color: #2c2c2c;
+    color: black;
 }
 
 .menu_list li a:hover {
     background-color: #f9f9f9;
     border-bottom: 2px solid ##a8a7a7;
+    border-collapse: collapse;
 }
 
 .image {
@@ -60,22 +73,22 @@
     margin-top: -240px;
     margin-left: 332px;
     border: solid 1px #c8c8c8;
-    width: 680px;
-    height: 400px;
+    width: 550px;
+    height: 307px;
     padding: 40px;
 }
 
 .text {
     margin-top: 40px;
     margin-left: 357px;
-    width: 680px;
+    width: 580px;
 }
 
 .menu_low {
     margin-top: 80px;
     margin-left: 50px;
     height: 54px;
-    weight: 964px;
+    width: 964px;
     background-color: #e1e1e1;
     min-width: 100%;
 }
@@ -91,4 +104,12 @@
     text-align: justify;
     padding: 25px 66px;
     margin-top: 15px;
+}
+
+span {
+    float: right;
+}
+
+footer {
+    width: 964px;
 }
