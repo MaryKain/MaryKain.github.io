@@ -48,26 +48,26 @@ body {
 
 .hm2 li {
     display: inline-block;
-}
-
-.hm2 li a:hover {
-    background-color: #3f3f3f;
-    border-left: 1px solid #838383;
-    border-right: 1px solid #838383;
-    /*border-bottom: 2px solid #3f3f3f;*/
+    padding: 10px 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: white;
+    text-shadow: #a8a7a7 1px 0px;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
 }
 
 .hm2 li a {
     display: block;
-    float: left;
-    padding: 10px 60px;
     text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    color: #ffffff;
-    text-shadow: #a8a7a7 1px 0px;
-    border-left: 1px solid transparent;
-    border-right: 1px solid transparent;
+    color: white;
+}
+
+.hm2 li:hover {
+    background-color: #3f3f3f;
+    border-left: 1px solid #838383;
+    border-right: 1px solid #838383;
+    /*border-bottom: 2px solid #3f3f3f;*/
 }
 
 .main {
