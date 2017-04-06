@@ -3,6 +3,8 @@
     padding: 0
 }
 
+@font-face {}
+
 body {
     background: linear-gradient(to bottom, #138aa8 0%, #138aa8 2%, #118ba3 2%, #1688ac 2%, #108baa 3%, #138aa2 3%, #5deeff 3%, #13cee1 3%, #12cce5 3%, #11cee1 3%, #14cee3 3%, #29d3e4 5%, #31d4e7 5%, #33d5e4 6%, #4ad9e9 7%, #4edae9 7%, #80e5ef 10%, #8de7f0 10%, #cdf4f9 13%, #cdf5f7 13%, #daf8fa 14%, #dcf8fb 14%, #e4f9fc 15%, #eefcfd 17.5%, #f2fcfe 17.5%, #f8fefe 17.5%, #fbfcff 17.5%, #fafffc 17.5%, #feffff 17.5%, #fbffff 17.5%, #fffdfa 17.5%, #fffeff 17.5%, #3fc7d3 17.5%, #41c5d2 18%, #39bcce 20%, #30b3c7 23%, #23a5bd 26%, #23a5bf 26%, #1d9fb9 27%, #1d9ebb 28%, #1596b3 30%, #1091b1 32%, #0f8aac 53%, #0e82a7 63%, #0e79a3 84%, #0b76a0 88%, #0c739e 100%);
     min-height: 100vh
@@ -36,29 +38,43 @@ body {
     text-align: right;
 }
 
+.contact {
+    padding-left: 250px;
+}
+
+h4 {
+    color: #128aa7;
+    font-size: 12px;
+    text-align: left;
+    font-weight: 550;
+}
+
 .social p {
     color: #128aa7;
+    font-size: 10px;
+    text-align: left;
+    line-height: 1.5;
 }
 
 .menu_pic {
     display: block;
     /*width: 322px;*/
     height: 55px;
-    margin-top: 10px;
+    margin-top: 35px;
 }
 
 .menu_pic li {
     display: inline-block;
-    float: left;
-    margin-right: 7px;
-    max-width: 48px;
+    margin-right: 1px;
+    max-width: 53px;
     text-align: center;
 }
 
 .menu_pic a {
     font-size: 10px;
-    text-decoration: none;
-    word-wrap: normal;
+    text-decoration: underline;
+    font-weight: 500;
+    /*word-wrap: normal;*/
     color: #128aa7;
 }
 
