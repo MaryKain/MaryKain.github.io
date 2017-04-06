@@ -137,7 +137,7 @@ body {
     margin-left: 357px;
     float: right;
     display: table-cell;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .menu_low {
@@ -149,6 +149,7 @@ body {
 }
 
 .menu_low li {
+    font-size: 13px;
     float: left;
     list-style: none;
     color: black;
@@ -172,16 +173,12 @@ span {
     padding: 12px 25px;
 }
 
-text-decoration: underline;
-
-}
 a {
     text-decoration: none;
     color: black;
 }
+
 span {
     float: right;
     padding: 12px 25px;
-}
-
 }
