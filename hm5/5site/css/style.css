@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 14px;
+}
+
+.header {
+    padding: 0 20px;
+    background-image: url(../img/menu.png);
+}
+
+.header::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+li {
+    padding: 0;
+    margin: 0;
+}
+
+.nav ul {
+    display: inline;
+}
+
+.nav li {
+    display: inline-block;
+    line-height: 18px;
+    list-style: none;
+    float: right;
+    padding: 10px 10px;
+}
+
+.nav a {
+    display: block;
+    text-decoration: none;
+    color: #60b5ed;
+    padding: 0 10px;
+}
+
+.nav li:hover {
+    background-color: #4eabda;
+    color: white;
+}
+
+.nav a:hover {
+    color: white;
+}
+
+.nav::before {
+    content: "";
+    display: inline-block;
+    height: 28px;
+    border-right: 1px solid #60b5ed;
+    vertical-align: -50%;
+    float: right;
+    margin-top: 4px;
+}
+
+.login a {
+    display: inline-block;
+    padding-top: 7px;
+    padding: 10px 10px;
+    color: white;
+}
+
+.login p {
+    color: white;
+    padding-left: 10px;
+}
+
+.logo a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.logo {
+    float: right;
+}
+
+.login {
+    float: right;
+    border: 1px solid #4299d2;
+    background-color: #50afdc;
+    background: linear-gradient(to bottom, #4faedb, #2e7ac4);
+    box-sizing: border-box;
+}
+
+.main {
+    width: 560px;
+    height: 612px;
+    margin: 210px auto;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.name {
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    border-bottom: 2px solid white;
+}
+
+.fb {
+    display: block;
+    text-align: center;
+}
+
+.fb a {
+    color: white;
+    text-decoration: none;
+    vertical-align: bottom;
+}
+
+.button {
+    margin-left: 141px;
+    margin-top: 36px;
+    height: 35px;
+    width: 275px;
+}
+
+.fa-facebook {
+    display: inline-block;
+    padding: 11px 15px;
+    border-left: 1px solid #1f3c76;
+    border-top: 1px solid #7788b4;
+    border-right: 1px solid #1f3c76;
+    border-radius: 3px 0 0 3px;
+    margin-right: -4px;
+    color: #fff;
+    background: linear-gradient( to bottom, #3b5798, #314172);
+    line-height: 36px;
+    font-size: 20px;
+    vertical-align: bottom;
+}
+
+.fblink {
+    display: inline-block;
+    padding: 0 23px;
+    border-top: 1px solid #7788b4;
+    border-left: 1px solid #4e69ac;
+    border-radius: 0 3px 3px 0;
+    color: #fff;
+    background: linear-gradient( to bottom, #3b5798, #314172);
+    line-height: 36px;
+    text-decoration: none;
+    padding-right: 59px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+/*.fa-facebook {
+    /*width: 37px;
+    height: 36px;*/
+
+
+/*border-right: 1px solid #1d3c73;
+border-top: 1px solid #7a88b5;
+border-radius: 3px 0 0 0;
+padding: inherit;
+color: white;
+font-size: 20px;
+vertical-align: bottom;*/
+
+fieldset {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 20px;
+    width: 274px;
+    margin-left: 141px;
+    margin-right: 141px;
+}
+
+legend {
+    text-align: center;
+    padding: 5px;
+    color: #999999;
+    font-size: 14px;
+    font-family: Tahoma;
+    /*width: 276px;*/
+}
+
+fieldset p {
+    margin-top: 19px;
+    width: 276px;
+}
+
+input[type="text"] {
+    box-sizing: border-box;
+    border-bottom: 1px solid #474747;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    /*max-width: 276px;*/
+    /*margin: auto;*/
+    /*padding-right: 40px;*/
+    background: #0f0f0f;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: white;
+}
+
+.text {
+    width: 275px;
+}
+
+input[type="text"]:focus, input[type="text"]:hover {
+    background: #1b5288;
+    box-shadow: 0px 0px 5px 3px rgba(104, 155, 204, 0.5);
+}
+
+input::-webkit-input-placeholder {
+    padding-left: 20px;
+}
+
+input[type="checkbox"], label {
+    color: #cccccc;
+    margin-top: 10px;
+}
+
+.create {
+    background: url(../img/buttom.png);
+    height: 36px;
+    width: 151px;
+    border: none;
+    border-bottom: none;
+    text-align: center;
+    margin-top: 30px;
+    font-family: Tahoma;
+    font-size: 14px;
+    color: white;
+    margin-left: 70px;
+}
+
+.sign {
+    display: block;
+    font-family: Tahoma;
+    color: #cccccc;
+    text-align: center;
+    font-size: 11px;
+    margin-bottom: 22px;
+    font-weight: lighter;
+    margin-top: 21px;
+}
