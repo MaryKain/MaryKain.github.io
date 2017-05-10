@@ -132,7 +132,7 @@ li {
 
 .fa-facebook {
     display: inline-block;
-    padding: 11px 15px;
+    padding: 12px 15px;
     border-left: 1px solid #1f3c76;
     border-top: 1px solid #7788b4;
     border-right: 1px solid #1f3c76;
@@ -153,7 +153,7 @@ li {
     border-radius: 0 3px 3px 0;
     color: #fff;
     background: linear-gradient( to bottom, #3b5798, #314172);
-    line-height: 36px;
+    line-height: 38px;
     text-decoration: none;
     padding-right: 59px;
 }
