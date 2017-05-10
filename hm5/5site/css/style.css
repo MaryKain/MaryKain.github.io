@@ -124,10 +124,10 @@ li {
 }
 
 .button {
-    margin-left: 141px;
+    /*margin-left: 141px;*/
     margin-top: 36px;
     height: 35px;
-    width: 275px;
+    /*width: 275px;*/
 }
 
 .fa-facebook {
