@@ -11,36 +11,27 @@ body {
     font-size: 14px;
     min-height: 100vh;
     display: flex;
-    align-items: center;
     flex-direction: column;
+    justify-content: center;
 }
 
 .header {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    min-width: 100%;
-    padding: 0 20px;
+    justify-content: flex-end;
     background-image: url(../img/menu.png);
 }
 
-.header::after {
-    content: "";
-    display: block;
-    clear: both;
+.menu {
+    display: flex;
+    flex-direction: row-reverse;
 }
 
-li {
-    padding: 0;
-    margin: 0;
-}
-
-.nav ul {
-    display: inline;
+.nav {
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .nav li {
-    display: inline-block;
     line-height: 18px;
     list-style: none;
     float: right;
@@ -48,7 +39,6 @@ li {
 }
 
 .nav a {
-    display: block;
     text-decoration: none;
     color: #60b5ed;
     padding: 0 10px;
@@ -65,19 +55,23 @@ li {
 
 .nav::before {
     content: "";
-    display: inline-block;
     height: 28px;
     border-right: 1px solid #60b5ed;
     vertical-align: -50%;
-    float: right;
     margin-top: 4px;
 }
 
+.login {
+    border: 1px solid transparent;
+    display: flex;
+    padding: 10px 10px;
+}
+
 .login a {
-    display: inline-block;
     padding-top: 7px;
     padding: 10px 10px;
     color: white;
+    text-decoration: none;
 }
 
 .login p {
@@ -86,25 +80,40 @@ li {
 }
 
 .logo a {
-    display: block;
     color: white;
     text-decoration: none;
     padding: 10px;
 }
 
 .logo {
-    float: right;
+    border: 1px solid transparent;
+    align-items: center;
+    padding: 10px 10px;
 }
 
-.login {
-    float: right;
+.logo:hover {
+    border: 1px solid #4299d2;
+    background-color: #50afdc;
+    background: linear-gradient(to bottom, #4faedb, #2e7ac4);
+    box-sizing: border-box;
+    text-decoration: underline;
+}
+
+.login:hover {
     border: 1px solid #4299d2;
     background-color: #50afdc;
     background: linear-gradient(to bottom, #4faedb, #2e7ac4);
     box-sizing: border-box;
 }
 
-.position {}
+.login a:hover {
+    text-decoration: underline;
+}
+
+.position {
+    flex-grow: 1;
+    display: flex;
+}
 
 .main {
     display: block;
@@ -135,10 +144,8 @@ li {
 }
 
 .button {
-    /*margin-left: 141px;*/
     margin-top: 36px;
     height: 35px;
-    /*width: 275px;*/
 }
 
 .fa-facebook {
@@ -173,20 +180,6 @@ li {
     font-weight: bold;
 }
 
-
-/*.fa-facebook {
-    /*width: 37px;
-    height: 36px;*/
-
-
-/*border-right: 1px solid #1d3c73;
-border-top: 1px solid #7a88b5;
-border-radius: 3px 0 0 0;
-padding: inherit;
-color: white;
-font-size: 20px;
-vertical-align: bottom;*/
-
 fieldset {
     border-bottom: none;
     border-left: none;
@@ -203,7 +196,6 @@ legend {
     color: #999999;
     font-size: 14px;
     font-family: Tahoma;
-    /*width: 276px;*/
 }
 
 fieldset p {
@@ -217,9 +209,6 @@ input[type="text"] {
     border-top: none;
     border-left: none;
     border-right: none;
-    /*max-width: 276px;*/
-    /*margin: auto;*/
-    /*padding-right: 40px;*/
     background: #0f0f0f;
     padding: 5px 10px;
     font-size: 14px;
