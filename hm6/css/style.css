@@ -31,6 +31,7 @@ header {
 .phones {
     display: inline-block;
     align-items: center;
+    width: 345px;
     margin-top: 2px;
     padding-left: 7px;
     background: url('../img/tel.jpg') 7px 2px no-repeat;
@@ -196,7 +197,7 @@ section {
     border-radius: 15px;
 }
 
-.box3 {
+.box2 {
     width: 192px;
     height: 134px;
     border: 1px solid #808080;
@@ -243,6 +244,12 @@ article {
     font-size: 12px;
     letter-spacing: .6px;
 }
+
+
+/*
+.icon::before {
+    background: url('../img/book.png')
+}*/
 
 .name2 {
     width: 150px;
@@ -350,6 +357,11 @@ strong span i {
     margin-top: 4px;
 }
 
+
+/*.name {
+    display: block;
+}*/
+
 .name3 {
     width: 135px;
     height: 25px;
@@ -360,6 +372,10 @@ strong span i {
     background: url('../img/icon2.png') no-repeat 3px 0;
     line-height: 25px;
     text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
 }
 
 .name3 h4 {
