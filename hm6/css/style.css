@@ -21,6 +21,7 @@ body {
 
 header {
     display: flex;
+    justify-content: space-between;
     width: 100%;
     height: 26px;
     margin-top: 10px;
@@ -34,7 +35,7 @@ header {
 }*/
 
 .phones {
-    display: inline-block;
+    display: flex;
     align-items: center;
     width: 345px;
     margin-top: 4px;
@@ -49,7 +50,7 @@ header {
 }
 
 .registration {
-    display: inline-block;
+    flex-direction: row;
     vertical-align: middle;
     background: linear-gradient(to top, #0c3357, #1f6787);
     border: 1px solid #a6c3cf;
@@ -62,7 +63,6 @@ header {
 }
 
 .registration img {
-    display: inline-block;
     vertical-align: middle;
     margin: 2px 0 2px 5px;
 }
@@ -85,6 +85,11 @@ header {
     margin-left: 4px;
     font-size: 11px;
     /*letter-spacing: 0.4px;*/
+}
+
+form a {
+    text-decoration: none;
+    color: white;
 }
 
 .registration>a {
@@ -269,10 +274,16 @@ article {
     margin-left: 47px;
 }
 
+.img {
+    padding-left: 4px;
+}
+
 .left-column ul li {
     position: relative;
     margin: 6px 0;
     list-style-type: none;
+    font: 12.73px 'Lucida Sans Unicode', arial, sans-serif;
+    color: #465961;
 }
 
 .left-column ul li::before {
@@ -295,9 +306,10 @@ article {
 
 .left-column li a:hover {
     border-bottom: 1px solid #808080;
-    color: #114165;
-    font-size: 15px;
+    color: #0c3256;
+    font-size: 14px;
     font-style: italic;
+    font-weight: bold;
 }
 
 
@@ -323,7 +335,7 @@ figure {
     width: 137px;
     height: 126px;
     margin-bottom: 5px;
-    border: 1px solid #000;
+    border: 1px solid #a7b1b4;
     border-radius: 10px;
     background: #fff;
 }
@@ -332,21 +344,41 @@ figure {
     margin: 5px 31px;
 }
 
-figcaption {
+
+/*figcaption {
     line-height: 14px;
+}*/
+
+.mark {
+    height: 14px;
 }
 
 figcaption a {
-    font-size: 16px;
+    height: 15px;
+    font: 15px 'Lucida Sans Unicode', arial, sans-serif;
+    font-weight: 800;
+    color: #37748f;
     text-decoration: none;
 }
 
 figcaption span {
-    font-size: 14px;
+    font: 12.77px 'Lucida Sans Unicode', arial, sans-serif;
+    color: #1f2528;
 }
 
-strong span i {
-    font-size: 13px;
+
+/*strong span i {
+    font: 1px Arial, sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    color: #114165;
+}*/
+
+.price {
+    font: 16px Arial, sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    color: #114165;
 }
 
 
@@ -402,6 +434,7 @@ ul {
     background: linear-gradient(#1f6585, #0c3357);
     color: #fff;
     font-size: 12px;
+    border: none;
 }
 
 .brand {
