@@ -681,8 +681,6 @@ header{
   font-style: italic;
   font-size: 15px;
   letter-spacing: 0.4px;
-  color: #c5c5c5;
-  text-shadow: 1px 1px #fff;
 }
 
 .footer__text{
@@ -692,8 +690,6 @@ header{
   line-height: 24px;
   font-family: 'open_sanslight';
   letter-spacing: -0.2px;
-  color: #787878;
-  text-shadow: 1px 1px #fff;
 }
 
 .footer__text--1{
@@ -719,7 +715,6 @@ header{
   font-size: 30px;
   font-family: 'league_gothicregular';
   text-transform: uppercase;
-  text-shadow: 1px 1px #fff;
 }
 
 .footer__header--1{
